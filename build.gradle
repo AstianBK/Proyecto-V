@@ -116,7 +116,6 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
     maven {
         url "https://cursemaven.com"
         content {
@@ -127,8 +126,6 @@ repositories {
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-    //implementation fg.deobf("curse.maven:epic-fight-mod-405076:5159623")
-    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-1.20.1:4.4.4")
     annotationProcessor "org.spongepowered:mixin:0.8.5:processor"
 }
 
