@@ -12,39 +12,39 @@ public class MBItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, RKMedievalBoomStick.MODID);
 
     //SEEDS
-    public static final RegistryObject<Item> SAGE_SEEDS = ITEMS.register("sage_seeds",
+    public static final RegistryObject<Item> SAGE_SEEDS = ITEMS.register("sage",
             ()-> new ItemNameBlockItem(MBBlocks.SAGE_CROP_BLOCK.get(), new Item.Properties()));
 
-    public static final RegistryObject<Item> YARROW_SEEDS = ITEMS.register("yarrow_seeds",
+    public static final RegistryObject<Item> YARROW_SEEDS = ITEMS.register("yarrow",
             ()-> new ItemNameBlockItem(MBBlocks.YARROW_CROP_BLOCK.get(), new Item.Properties()));
 
 
-    public static final RegistryObject<Item> ARNICA_SEEDS = ITEMS.register("arnica_seeds",
+    public static final RegistryObject<Item> ARNICA_SEEDS = ITEMS.register("arnica",
             ()-> new ItemNameBlockItem(MBBlocks.ARNICA_CROP_BLOCK.get(), new Item.Properties()));
 
-    public static final RegistryObject<Item> LEMON_BALM_SEEDS = ITEMS.register("lemon_balm_seeds",
+    public static final RegistryObject<Item> LEMON_BALM_SEEDS = ITEMS.register("lemon_balm",
             ()-> new ItemNameBlockItem(MBBlocks.LEMON_BALM_CROP_BLOCK.get(), new Item.Properties()));
 
-    public static final RegistryObject<Item> COMFREY_SEEDS = ITEMS.register("comfrey_seeds",
+    public static final RegistryObject<Item> COMFREY_SEEDS = ITEMS.register("comfrey",
             ()-> new ItemNameBlockItem(MBBlocks.COMFREY_CROP_BLOCK.get(), new Item.Properties()));
 
-    public static final RegistryObject<Item> YELLOW_WOOD_SORREL_SEEDS = ITEMS.register("yellow_wood_sorrel_seeds",
+    public static final RegistryObject<Item> YELLOW_WOOD_SORREL_SEEDS = ITEMS.register("yellow_wood_sorrel",
             ()-> new ItemNameBlockItem(MBBlocks.YELLOW_WOOD_SORREL_CROP_BLOCK.get(), new Item.Properties()));
 
     //FOOD
     public static final RegistryObject<Item> SAGE = ITEMS.register("sage",
-            ()->new Item(new Item.Properties().food((new FoodProperties.Builder().nutrition(12).saturationMod(0.1F).build()))));
+            ()->new Item(new Item.Properties().food((new FoodProperties.Builder().nutrition(2).saturationMod(0.0F).build()))));
     public static final RegistryObject<Item> YARROW = ITEMS.register("yarrow",
-            ()->new Item(new Item.Properties().food((new FoodProperties.Builder().nutrition(12).saturationMod(0.1F).build()))));
+            ()->new Item(new Item.Properties().food((new FoodProperties.Builder().nutrition(2).saturationMod(0.0F).build()))));
 
     public static final RegistryObject<Item> ARNICA = ITEMS.register("arnica",
-            ()->new Item(new Item.Properties().food((new FoodProperties.Builder().nutrition(12).saturationMod(0.1F).build()))));
+            ()->new Item(new Item.Properties().food((new FoodProperties.Builder().nutrition(2).saturationMod(0.0F).build()))));
     public static final RegistryObject<Item> LEMON_BALM = ITEMS.register("lemon_balm",
-            ()->new Item(new Item.Properties().food((new FoodProperties.Builder().nutrition(12).saturationMod(0.1F).build()))));
+            ()->new Item(new Item.Properties().food((new FoodProperties.Builder().nutrition(2).saturationMod(0.0F).build()))));
 
     public static final RegistryObject<Item> COMFREY = ITEMS.register("comfrey",
-            ()->new Item(new Item.Properties().food((new FoodProperties.Builder().nutrition(12).saturationMod(0.1F).build()))));
+            ()->new Item(new Item.Properties().food((new FoodProperties.Builder().nutrition(2).saturationMod(0.0F).build()))));
     public static final RegistryObject<Item> YELLOW_WOOD_SORREL = ITEMS.register("yellow_wood_sorrel",
-            ()->new Item(new Item.Properties().food((new FoodProperties.Builder().nutrition(12).saturationMod(0.1F).build()))));
+            ()->new Item(new Item.Properties().food((new FoodProperties.Builder().nutrition(2).saturationMod(0.0F).build()))));
 
 }
