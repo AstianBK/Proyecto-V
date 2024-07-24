@@ -23,23 +23,23 @@ public class BKBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         LootItemCondition.Builder lootitemcondition$builder = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(MBBlocks.SAGE_CROP_BLOCK.get())
-                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(SageCropBlock.AGE, 4));
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(SageCropBlock.AGE, 3));
 
         LootItemCondition.Builder lootitemcondition$builder1 = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(MBBlocks.YARROW_CROP_BLOCK.get())
-                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(YarrowCropBlock.AGE, 4));
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(YarrowCropBlock.AGE, 3));
 
         LootItemCondition.Builder lootitemcondition$builder2 = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(MBBlocks.COMFREY_CROP_BLOCK.get())
-                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(ComfreyCropBlock.AGE, 4));
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(ComfreyCropBlock.AGE, 3));
 
         LootItemCondition.Builder lootitemcondition$builder3 = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(MBBlocks.ARNICA_CROP_BLOCK.get())
-                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(ArnicaCropBlock.AGE, 4));
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(ArnicaCropBlock.AGE, 3));
 
         LootItemCondition.Builder lootitemcondition$builder4 = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(MBBlocks.LEMON_BALM_CROP_BLOCK.get())
-                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(LemonBalmCropBlock.AGE, 4));
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(LemonBalmCropBlock.AGE, 3));
 
         LootItemCondition.Builder lootitemcondition$builder5 = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(MBBlocks.YELLOW_WOOD_SORREL_CROP_BLOCK.get())
