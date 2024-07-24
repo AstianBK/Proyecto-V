@@ -11,9 +11,6 @@
     },
     "age=3": {
       "model": "medieval_boomsticks:block/yarrow_crop3"
-    },
-    "age=4": {
-      "model": "medieval_boomsticks:block/yarrow_crop4"
     }
   }
 }
