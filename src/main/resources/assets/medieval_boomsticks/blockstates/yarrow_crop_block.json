@@ -1,19 +1,16 @@
 {
   "variants": {
     "age=0": {
-      "model": "medieval_boomsticks:block/yarrow_crop0"
+      "model": "medieval_boomsticks:block/yarrow_0"
     },
     "age=1": {
-      "model": "medieval_boomsticks:block/yarrow_crop1"
+      "model": "medieval_boomsticks:block/yarrow_1"
     },
     "age=2": {
-      "model": "medieval_boomsticks:block/yarrow_crop2"
+      "model": "medieval_boomsticks:block/yarrow_2"
     },
     "age=3": {
-      "model": "medieval_boomsticks:block/yarrow_crop3"
-    },
-    "age=4": {
-      "model": "medieval_boomsticks:block/yarrow_crop4"
+      "model": "medieval_boomsticks:block/yarrow_3"
     }
   }
 }
