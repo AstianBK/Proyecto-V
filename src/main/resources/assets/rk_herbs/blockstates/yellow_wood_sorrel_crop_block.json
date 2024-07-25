@@ -1,16 +1,16 @@
 {
   "variants": {
     "age=0": {
-      "model": "rk_herbs:block/yellow_wood_sorrel_0"
+      "model": "rk_herbs:block/yellow_wood_sorrel_crop0"
     },
     "age=1": {
-      "model": "rk_herbs:block/yellow_wood_sorrel_1"
+      "model": "rk_herbs:block/yellow_wood_sorrel_crop1"
     },
     "age=2": {
-      "model": "rk_herbs:block/yellow_wood_sorrel_2"
+      "model": "rk_herbs:block/yellow_wood_sorrel_crop2"
     },
     "age=3": {
-      "model": "rk_herbs:block/yellow_wood_sorrel_3"
+      "model": "rk_herbs:block/yellow_wood_sorrel_crop3"
     }
   }
 }

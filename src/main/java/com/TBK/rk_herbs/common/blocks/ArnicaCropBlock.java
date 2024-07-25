@@ -27,7 +27,7 @@ public class ArnicaCropBlock extends CropBlock {
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return MBItems.SAGE_SEEDS.get();
+        return MBItems.SAGE.get();
     }
 
     @Override

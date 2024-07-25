@@ -27,7 +27,7 @@ public class YarrowCropBlock extends CropBlock {
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return MBItems.YARROW_SEEDS.get();
+        return MBItems.YARROW.get();
     }
 
     @Override

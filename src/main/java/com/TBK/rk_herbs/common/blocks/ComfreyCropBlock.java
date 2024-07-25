@@ -27,7 +27,7 @@ public class ComfreyCropBlock extends CropBlock {
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return MBItems.SAGE_SEEDS.get();
+        return MBItems.COMFREY.get();
     }
 
     @Override

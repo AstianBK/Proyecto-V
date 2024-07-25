@@ -12,15 +12,15 @@ public class MBCreativeTabs {
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RKHerbs.MODID);
 
     public static final RegistryObject<CreativeModeTab> MB_MOBS_TAB = TABS.register(RKHerbs.MODID,()-> CreativeModeTab.builder()
-            .icon(()->new ItemStack(MBItems.ARNICA_SEEDS.get()))
+            .icon(()->new ItemStack(MBItems.ARNICA.get()))
             .title(Component.translatable("itemGroup.rk_herbs"))
             .displayItems((s,a)-> {
-                a.accept(MBItems.YARROW_SEEDS.get());
-                a.accept(MBItems.SAGE_SEEDS.get());
-                a.accept(MBItems.YELLOW_WOOD_SORREL_SEEDS.get());
-                a.accept(MBItems.LEMON_BALM_SEEDS.get());
-                a.accept(MBItems.ARNICA_SEEDS.get());
-                a.accept(MBItems.COMFREY_SEEDS.get());
+                a.accept(MBItems.YARROW.get());
+                a.accept(MBItems.SAGE.get());
+                a.accept(MBItems.YELLOW_WOOD_SORREL.get());
+                a.accept(MBItems.LEMON_BALM.get());
+                a.accept(MBItems.ARNICA.get());
+                a.accept(MBItems.COMFREY.get());
             })
             .build());
 }

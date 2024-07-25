@@ -44,22 +44,22 @@ public class BKBlockLootTables extends BlockLootSubProvider {
                 .hasBlockStateProperties(MBBlocks.YELLOW_WOOD_SORREL_CROP_BLOCK.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(YellowWoodSorrelCropBlock.AGE, 3));
 
-        this.add(MBBlocks.SAGE_CROP_BLOCK.get(), createCropDrops(MBBlocks.SAGE_CROP_BLOCK.get(),MBItems.SAGE.get(), MBItems.SAGE_SEEDS.get(),
+        this.add(MBBlocks.SAGE_CROP_BLOCK.get(), createCropDrops(MBBlocks.SAGE_CROP_BLOCK.get(),MBItems.SAGE.get(), MBItems.SAGE.get(),
                  lootitemcondition$builder));
 
-        this.add(MBBlocks.YARROW_CROP_BLOCK.get(), createCropDrops(MBBlocks.YARROW_CROP_BLOCK.get(),MBItems.YARROW.get(), MBItems.YARROW_SEEDS.get(),
+        this.add(MBBlocks.YARROW_CROP_BLOCK.get(), createCropDrops(MBBlocks.YARROW_CROP_BLOCK.get(),MBItems.YARROW.get(), MBItems.YARROW.get(),
                  lootitemcondition$builder1));
 
-        this.add(MBBlocks.SAGE_CROP_BLOCK.get(), createCropDrops(MBBlocks.COMFREY_CROP_BLOCK.get(),MBItems.COMFREY.get(), MBItems.COMFREY_SEEDS.get(),
+        this.add(MBBlocks.SAGE_CROP_BLOCK.get(), createCropDrops(MBBlocks.COMFREY_CROP_BLOCK.get(),MBItems.COMFREY.get(), MBItems.COMFREY.get(),
                  lootitemcondition$builder2));
 
-        this.add(MBBlocks.ARNICA_CROP_BLOCK.get(), createCropDrops(MBBlocks.ARNICA_CROP_BLOCK.get(),MBItems.ARNICA.get(), MBItems.ARNICA_SEEDS.get(),
+        this.add(MBBlocks.ARNICA_CROP_BLOCK.get(), createCropDrops(MBBlocks.ARNICA_CROP_BLOCK.get(),MBItems.ARNICA.get(), MBItems.ARNICA.get(),
                  lootitemcondition$builder3));
 
-        this.add(MBBlocks.LEMON_BALM_CROP_BLOCK.get(), createCropDrops(MBBlocks.LEMON_BALM_CROP_BLOCK.get(),MBItems.LEMON_BALM.get(), MBItems.LEMON_BALM_SEEDS.get(),
+        this.add(MBBlocks.LEMON_BALM_CROP_BLOCK.get(), createCropDrops(MBBlocks.LEMON_BALM_CROP_BLOCK.get(),MBItems.LEMON_BALM.get(), MBItems.LEMON_BALM.get(),
                  lootitemcondition$builder4));
 
-        this.add(MBBlocks.YELLOW_WOOD_SORREL_CROP_BLOCK.get(), createCropDrops(MBBlocks.YELLOW_WOOD_SORREL_CROP_BLOCK.get(),MBItems.YELLOW_WOOD_SORREL.get(), MBItems.YELLOW_WOOD_SORREL_SEEDS.get(),
+        this.add(MBBlocks.YELLOW_WOOD_SORREL_CROP_BLOCK.get(), createCropDrops(MBBlocks.YELLOW_WOOD_SORREL_CROP_BLOCK.get(),MBItems.YELLOW_WOOD_SORREL.get(), MBItems.YELLOW_WOOD_SORREL.get(),
                  lootitemcondition$builder5));
 
     }

@@ -27,7 +27,7 @@ public class YellowWoodSorrelCropBlock extends CropBlock {
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return MBItems.SAGE_SEEDS.get();
+        return MBItems.YELLOW_WOOD_SORREL.get();
     }
 
     @Override
