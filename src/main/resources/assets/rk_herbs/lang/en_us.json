@@ -1,3 +1,10 @@
 {
+  "item.rk_herbs.arnica": "Arnica",
+  "item.rk_herbs.sage": "Sage",
+  "item.rk_herbs.lemon_balm": "Lemon Balm",
+  "item.rk_herbs.yellow_wood_sorrel": "Yellow Wood Sorrel",
+  "item.rk_herbs.comfrey": "Comfrey",
+  "item.rk_herbs.yarrow": "Yarrow",
 
+  "itemGroup.rk_herbs": "RK Herbs"
 }

@@ -1,3 +1,10 @@
 {
+  "item.rk_herbs.arnica": "Arnica",
+  "item.rk_herbs.sage": "Salvia Nemorosa",
+  "item.rk_herbs.lemon_balm": "Toronjil",
+  "item.rk_herbs.yellow_wood_sorrel": "Acederilla amarilla",
+  "item.rk_herbs.comfrey": "Consuelda",
+  "item.rk_herbs.yarrow": "Milenrama",
 
+  "itemGroup.rk_herbs": "RK Herbs"
 }
